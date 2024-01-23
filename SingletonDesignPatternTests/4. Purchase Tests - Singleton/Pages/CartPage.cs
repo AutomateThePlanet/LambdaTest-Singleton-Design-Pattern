@@ -1,4 +1,4 @@
-﻿namespace DecoratorDesignPatternTests.FourthVersion;
+﻿namespace SingletonDesignPatternTests.FourthVersion;
 public class CartPage : WebPage<CartPage>
 {
     public IComponent ViewCartButton => Driver.FindComponent(By.XPath("//a[normalize-space(.)='View Cart']"));

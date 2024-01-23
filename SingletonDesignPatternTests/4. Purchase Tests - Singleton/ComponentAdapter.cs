@@ -1,6 +1,4 @@
-﻿using System.Threading;
-
-namespace DecoratorDesignPattern.FourthVersion;
+﻿namespace SingletonDesignPattern.FourthVersion;
 
 public class ComponentAdapter : IComponent
 {

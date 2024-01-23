@@ -1,15 +1,12 @@
 ﻿using System.Collections.ObjectModel;
-using System.Xml.Linq;
-using AngleSharp.Dom;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Safari;
-using OpenQA.Selenium.Support.UI;
 using WebDriverManager.DriverConfigs.Impl;
 
-namespace DecoratorDesignPattern.FourthVersion;
+namespace SingletonDesignPattern.FourthVersion;
 
 public class DriverAdapter : IDriver
 {

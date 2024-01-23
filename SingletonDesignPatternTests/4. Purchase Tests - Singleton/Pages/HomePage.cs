@@ -1,4 +1,4 @@
-﻿namespace DecoratorDesignPatternTests.FourthVersion;
+﻿namespace SingletonDesignPatternTests.FourthVersion;
 public class HomePage : WebPage<HomePage>
 {
     public IComponent SearchInput => Driver.FindComponent(By.XPath("//input[@name='search']"));

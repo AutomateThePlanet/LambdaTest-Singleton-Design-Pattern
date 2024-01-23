@@ -1,13 +1,8 @@
 ﻿using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
-using OpenQA.Selenium.Interactions;
-using SeleniumExtras.WaitHelpers;
-using System.Threading;
 using WebDriverManager.DriverConfigs.Impl;
-using System;
-using DecoratorDesignPatternTests.Models;
+using SingletonDesignPatternTests.Models;
 
-namespace DecoratorDesignPattern.SecondVersion;
+namespace SingletonDesignPattern.SecondVersion;
 
 [TestFixture]
 public class ProductPurchaseTests

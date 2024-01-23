@@ -1,6 +1,6 @@
-﻿using DecoratorDesignPatternTests.Models;
+﻿using SingletonDesignPatternTests.Models;
 
-namespace DecoratorDesignPatternTests.ThirdVersion;
+namespace StrategyDesignPattern.ThirdVersion;
 public class CheckoutPage : WebPage
 {
     public CheckoutPage(IWebDriver driver, WebDriverWait wait, Actions actions) 

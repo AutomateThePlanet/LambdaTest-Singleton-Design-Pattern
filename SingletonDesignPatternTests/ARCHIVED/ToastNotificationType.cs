@@ -1,4 +1,4 @@
-﻿//namespace DecoratorDesignPatternTests.ARCHIVED;
+﻿//namespace SingletonDesignPatternTests.ARCHIVED;
 //public enum ToastNotificationType
 //{
 //    Information,

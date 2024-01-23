@@ -1,6 +1,6 @@
-﻿using DecoratorDesignPatternTests.Models;
+﻿using SingletonDesignPatternTests.Models;
 
-namespace DecoratorDesignPatternTests.FourthVersion;
+namespace SingletonDesignPatternTests.FourthVersion;
 
 public class ProductPage : WebPage<ProductPage>
 {

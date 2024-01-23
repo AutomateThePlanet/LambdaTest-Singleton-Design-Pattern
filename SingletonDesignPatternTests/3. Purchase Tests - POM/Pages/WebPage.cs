@@ -1,7 +1,4 @@
-﻿using OpenQA.Selenium.Interactions;
-using OpenQA.Selenium.Support.UI;
-
-namespace DecoratorDesignPatternTests.ThirdVersion;
+﻿namespace StrategyDesignPattern.ThirdVersion;
 public abstract class WebPage
 {
     protected readonly IWebDriver _driver;

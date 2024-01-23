@@ -1,7 +1,6 @@
-﻿using System.Threading;
-using DecoratorDesignPatternTests.Models;
+﻿using SingletonDesignPatternTests.Models;
 
-namespace DecoratorDesignPatternTests.FourthVersion;
+namespace SingletonDesignPatternTests.FourthVersion;
 public class CheckoutPage : WebPage<CheckoutPage>
 {
     public IComponent FirstNameInput => Driver.FindComponent(By.Id("input-payment-firstname"));

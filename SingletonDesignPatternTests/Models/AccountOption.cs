@@ -1,4 +1,4 @@
-﻿namespace DecoratorDesignPatternTests.Models;
+﻿namespace SingletonDesignPatternTests.Models;
 public enum AccountOption
 {
     Login,

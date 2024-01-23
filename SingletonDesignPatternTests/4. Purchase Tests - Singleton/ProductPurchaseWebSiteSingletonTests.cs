@@ -1,7 +1,7 @@
-﻿using DecoratorDesignPatternTests.FourthVersion;
-using DecoratorDesignPatternTests.Models;
+﻿using SingletonDesignPatternTests.FourthVersion;
+using SingletonDesignPatternTests.Models;
 
-namespace DecoratorDesignPattern.FourthVersion;
+namespace SingletonDesignPattern.FourthVersion;
 
 [TestFixture]
 public class ProductPurchaseWebSiteSingletonTests

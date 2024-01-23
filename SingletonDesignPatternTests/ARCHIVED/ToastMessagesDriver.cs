@@ -1,6 +1,6 @@
 ﻿//using System.Web;
 
-//namespace DecoratorDesignPatternTests.ARCHIVED;
+//namespace SingletonDesignPatternTests.ARCHIVED;
 
 //public class ToastMessagesDriver : DriverDecorator
 //{

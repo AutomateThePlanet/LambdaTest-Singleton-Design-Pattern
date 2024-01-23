@@ -1,4 +1,4 @@
-﻿namespace DecoratorDesignPatternTests.FourthVersion.NonThreadSafe;
+﻿namespace SingletonDesignPatternTests.FourthVersion.NonThreadSafe;
 public class WebSite
 {
     private readonly IDriver _driver;
@@ -8,10 +8,10 @@ public class WebSite
         _driver = driver;
 
         // we can implement lazy loading here
-        HomePage = new HomePage(_driver);
-        ProductPage = new ProductPage(_driver);
-        CartPage = new CartPage(_driver);
-        CheckoutPage = new CheckoutPage(_driver);
+        HomePage = HomePage.Instance;
+        ProductPage = ProductPage.Instance;
+        CartPage = CartPage.Instance;
+        CheckoutPage = CheckoutPage.Instance;
     }
 
     public HomePage HomePage { get; private set; }

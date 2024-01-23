@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SingletonDesignPatternTests.FourthVersion;
+﻿namespace SingletonDesignPatternTests.FourthVersion;
 public class ThreadStaticSingleton<T> 
     where T : new()
 {

@@ -1,9 +1,9 @@
 ﻿using OpenQA.Selenium.Chrome;
 using WebDriverManager.DriverConfigs.Impl;
-using DecoratorDesignPatternTests.Models;
-using DecoratorDesignPatternTests.ThirdVersion;
+using SingletonDesignPatternTests.Models;
+using StrategyDesignPattern.ThirdVersion;
 
-namespace DecoratorDesignPattern.ThirdVersion;
+namespace SingletonDesignPattern.ThirdVersion;
 
 [TestFixture]
 public class ProductPurchaseTests

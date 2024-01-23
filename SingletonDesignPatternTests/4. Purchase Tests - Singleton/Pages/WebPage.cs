@@ -1,6 +1,4 @@
-﻿using SingletonDesignPatternTests.FourthVersion;
-
-namespace DecoratorDesignPatternTests.FourthVersion;
+﻿namespace SingletonDesignPatternTests.FourthVersion;
 public class WebPage<TPage> : ThreadSafeLazyBaseSingleton<TPage>
      where TPage : new()
 {

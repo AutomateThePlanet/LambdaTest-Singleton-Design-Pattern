@@ -1,6 +1,6 @@
 ﻿//using AngleSharp.Dom;
 
-//namespace DecoratorDesignPatternTests.ARCHIVED;
+//namespace SingletonDesignPatternTests.ARCHIVED;
 
 //public class LogComponent : ComponentDecorator
 //{

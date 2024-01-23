@@ -1,6 +1,4 @@
-﻿using SingletonDesignPatternTests.FourthVersion;
-
-namespace DecoratorDesignPatternTests.FourthVersion;
+﻿namespace SingletonDesignPatternTests.FourthVersion;
 public class WebSite : ThreadSafeLazyBaseSingleton<WebSite>
 {
     //private readonly IDriver _driver;
@@ -10,8 +8,8 @@ public class WebSite : ThreadSafeLazyBaseSingleton<WebSite>
     //    _driver = driver;
     //}
 
-    public HomePage HomePage => new HomePage(DriverAdapter.Instance);
-    public ProductPage ProductPage => new ProductPage(DriverAdapter.Instance);
-    public CartPage CartPage => new CartPage(DriverAdapter.Instance);
-    public CheckoutPage CheckoutPage => new CheckoutPage(DriverAdapter.Instance);
+    public HomePage HomePage => HomePage.Instance;
+    public ProductPage ProductPage => ProductPage.Instance;
+    public CartPage CartPage => CartPage.Instance;
+    public CheckoutPage CheckoutPage => CheckoutPage.Instance;
 }

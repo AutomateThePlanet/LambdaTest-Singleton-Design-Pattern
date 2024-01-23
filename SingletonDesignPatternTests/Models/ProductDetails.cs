@@ -1,4 +1,4 @@
-﻿namespace DecoratorDesignPatternTests.Models;
+﻿namespace SingletonDesignPatternTests.Models;
 public class ProductDetails
 {
     public string Name { get; set; }

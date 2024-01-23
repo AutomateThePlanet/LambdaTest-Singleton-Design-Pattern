@@ -1,4 +1,4 @@
-﻿namespace DecoratorDesignPattern.FourthVersion;
+﻿namespace SingletonDesignPattern.FourthVersion;
 
 public enum Browser
 {
